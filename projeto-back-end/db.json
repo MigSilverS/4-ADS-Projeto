@@ -1,0 +1,34 @@
+{
+  "autores": [],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "Dom Casmurro",
+      "anoPublicacao": 1899,
+      "genero": "Literatura brasileira",
+      "autorId": 1
+    },
+    {
+      "id": "2",
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "anoPublicacao": 1881,
+      "genero": "Romance",
+      "autorId": 1
+    },
+    {
+      "id": "3",
+      "titulo": "A Hora da Estrela",
+      "anoPublicacao": 1977,
+      "genero": "Romance",
+      "autorId": 2
+    },
+    {
+      "id": "4",
+      "titulo": "1984",
+      "anoPublicacao": 1949,
+      "genero": "Ficção científica",
+      "autorId": 3
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
