@@ -1,5 +1,12 @@
 {
-  "autores": [],
+  "autores": [
+    {
+      "nome": "Danilo",
+      "nacionalidade": "Brasileiro",
+      "dataNascimento": "2010-03-20",
+      "id": "Eax8CpxQU40"
+    }
+  ],
   "livros": [
     {
       "id": "1",
