@@ -97,8 +97,8 @@ export default function ListarAutores() {
                 sucesso: "Autor excluído com sucesso!"
             }));
 
-           // Fecha o modal Bootstrap
-       const modal = document.getElementById("exampleModal");
+            // Fecha o modal Bootstrap
+            const modal = document.getElementById("exampleModal");
 
             if (modal) {
                 const botaoFechar = modal.querySelector(
@@ -107,7 +107,7 @@ export default function ListarAutores() {
 
                 botaoFechar?.click();
             }
-            
+
         } catch (erro) {
 
             console.error("Erro ao excluir autor:", erro);
@@ -192,7 +192,7 @@ export default function ListarAutores() {
                                         </Link>
 
                                         <a
-                                            href="#"
+                                            href={`/editar-autores/${autor.id}`}
                                             className="btn btn-warning mx-2"
                                             title="Editar"
                                         >
@@ -295,7 +295,7 @@ export default function ListarAutores() {
                                     {exclusao.erro}
                                 </div>
                             )
-                        }
+                            }
 
                         </div>
 

@@ -50,8 +50,9 @@ export default function NavBar() {
                                     </li>
                                     
                                     <li className="dropdown-item">
-                                        <Link className="nav-link" href="/cadastrar-usuario">Cadastrar Usuário</Link>
+                                        <Link className="nav-link" href="/cadastrar-autores">Cadastrar Autores</Link>
                                     </li>
+                                    
                                 </ul>
                             </li>
                             
